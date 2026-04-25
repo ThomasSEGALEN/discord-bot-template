@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "nodenext",
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "nodenext",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": ["dist", "node_modules", "tests", "vitest.config.ts"]
+}
